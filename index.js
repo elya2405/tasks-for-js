@@ -15,4 +15,4 @@ coneVolume(5, 4);
 function stringLength(string) {
   console.log("Длина строки равна " + string.length);
 }
-stringLength("nesten keneshova");
+stringLength("something");
