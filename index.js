@@ -42,4 +42,11 @@ function rootOfNumber(num) {
   return num ** (1 / 2);
 }
 console.log("Корень этого числа равен " + rootOfNumber(25));
-``;
+
+// 7. Напишите функцию, которая возвращает периметр пятиугольника.
+function perimetrOfPentagon(a, b, c, d, e) {
+  return a + b + c + d + e;
+}
+console.log(
+  "Периметр пятиугольника равен " + perimetrOfPentagon(1, 2, 3, 4, 5)
+);
