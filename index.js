@@ -14,6 +14,7 @@ coneVolume(5, 4);
 // 3. Напишите функцию, которая принимает строку и возвращает ее длину.
 function stringLength(string) {
   console.log("Длина строки равна " + string.length);
+  //return string.length;
 }
 stringLength("something");
 
@@ -28,3 +29,9 @@ function checkEvenOrOdd(num) {
   }
 }
 checkEvenOrOdd(11);
+
+// 5. Напишите функцию, которая возвращает квадрат числа.
+function squareOfNumber(num) {
+  console.log("Квадрат этого числа равен " + num ** 2);
+}
+squareOfNumber(2);
