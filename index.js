@@ -35,3 +35,9 @@ function squareOfNumber(num) {
   console.log("Квадрат этого числа равен " + num ** 2);
 }
 squareOfNumber(2);
+
+// 6. Напишите функцию, которая возвращает корень числа.
+function rootOfNumber(num) {
+  console.log("Корень этого числа равен " + num ** (1 / 2));
+}
+rootOfNumber(25);
