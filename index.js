@@ -16,3 +16,15 @@ function stringLength(string) {
   console.log("Длина строки равна " + string.length);
 }
 stringLength("something");
+
+// 4. Напишите функцию, которая принимает число и проверяет, четное оно или нечетное.
+function checkEvenOrOdd(num) {
+  if (num % 2 === 0) {
+    console.log(num + " is even");
+  } else if (num % 2 === 1) {
+    console.log(num + " is odd");
+  } else {
+    console.log(num + " is not number");
+  }
+}
+checkEvenOrOdd(11);
