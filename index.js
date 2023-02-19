@@ -61,4 +61,4 @@ let factorial = 1;
 for (let i = 1; i < 9; i++) {
   factorial = factorial * i;
 }
-console.log(factorial);
+console.log("Факториал числа 8 равен " + factorial);
