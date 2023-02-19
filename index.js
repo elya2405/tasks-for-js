@@ -67,3 +67,10 @@ console.log("Факториал числа 8 равен " + factorial);
 for (let i = 1; i < 11; i++) {
   console.log(i ** 2);
 }
+
+// 11. Напишите цикл, который вычисляет сумму чисел от 1 до 25.
+let sum = 0;
+for (let i = 0; i < 26; i++) {
+  sum = sum + i;
+}
+console.log("Сумма чисел от 1 до 25 равен " + sum);
