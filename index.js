@@ -62,3 +62,8 @@ for (let i = 1; i < 9; i++) {
   factorial = factorial * i;
 }
 console.log("Факториал числа 8 равен " + factorial);
+
+// 10. Напишите цикл, который выводит квадраты чисел от 1 до 10.
+for (let i = 1; i < 11; i++) {
+  console.log(i ** 2);
+}
