@@ -102,3 +102,11 @@ for (let i = 0; i < arrayOfNumbers.length; i++) {
   }
 }
 console.log(sumOfNumbers);
+
+// 16. Создайте массив строк и объедините их в одну строку.
+let line = ["I", "like", "to", "eat!"];
+let unification = " ";
+for (let i = 0; i < line.length; i++) {
+  unification = unification + line[i] + " ";
+}
+console.log(unification);
