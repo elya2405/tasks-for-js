@@ -115,3 +115,9 @@ console.log(unification);
 let reverseLine = ["one", "two", "three"];
 reverseLine.reverse();
 console.log(reverseLine);
+
+// 18. Создайте массив из имен (минимум 3) и выведите каждое имя.
+let names = ["Radik", "Aitesh", "Aibek", "Milana"];
+for (let i = 0; i < names.length; i++) {
+  console.log("Hello " + names[i]);
+}
