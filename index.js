@@ -127,3 +127,8 @@ let squares = [2, 3, 4, 5];
 for (let i = 0; i < squares.length; i++) {
   console.log(squares[i] ** 2);
 }
+
+// 20. Создайте массив строк и проверьте есть ли такой элемент в массиве.
+let animals = ["cat", "dog", "snake"];
+console.log(animals.includes("cat"));
+console.log(animals.includes("parrot"));
