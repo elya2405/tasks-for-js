@@ -121,3 +121,9 @@ let names = ["Radik", "Aitesh", "Aibek", "Milana"];
 for (let i = 0; i < names.length; i++) {
   console.log("Hello " + names[i]);
 }
+
+// 19. Создайте массив из чисел и выведите квадраты этих чисел. [2, 3, 4, 5]
+let squares = [2, 3, 4, 5];
+for (let i = 0; i < squares.length; i++) {
+  console.log(squares[i] ** 2);
+}
