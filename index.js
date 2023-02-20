@@ -110,3 +110,8 @@ for (let i = 0; i < line.length; i++) {
   unification = unification + line[i] + " ";
 }
 console.log(unification);
+
+// 17. Создайте массив строк ["one", "two", "three"] и переверните его.
+let reverseLine = ["one", "two", "three"];
+reverseLine.reverse();
+console.log(reverseLine);
