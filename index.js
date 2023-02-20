@@ -7,13 +7,13 @@ myNameAndSurname("Eleonora ", "Kanybekova");
 // 2. Напишите функцию, которая выводит объем конуса по заданным параметрам - высота (height) и радиус (radius).
 let pi = 3.14;
 function coneVolume(height, radius) {
-  console.log("Объем конуса " + (height * pi * radius ** 2) / 3);
+  console.log("Cone volume " + (height * pi * radius ** 2) / 3);
 }
 coneVolume(5, 4);
 
 // 3. Напишите функцию, которая принимает строку и возвращает ее длину.
 function stringLength(string) {
-  console.log("Длина строки равна " + string.length);
+  console.log("The length of the string is " + string.length);
 }
 stringLength("something");
 
@@ -35,20 +35,21 @@ checkEvenOrOdd("nice");
 function squareOfNumber(num) {
   return num ** 2;
 }
-console.log("Квадрат этого числа равен " + squareOfNumber(2));
+console.log("The square of this number is " + squareOfNumber(2));
 
 // 6. Напишите функцию, которая возвращает корень числа.
 function rootOfNumber(num) {
   return num ** (1 / 2);
 }
-console.log("Корень этого числа равен " + rootOfNumber(25));
+console.log("The root of this number is " + rootOfNumber(25));
 
 // 7. Напишите функцию, которая возвращает периметр пятиугольника.
 function perimetrOfPentagon(a, b, c, d, e) {
   return a + b + c + d + e;
 }
 console.log(
-  "Периметр пятиугольника равен " + perimetrOfPentagon(1, 2, 3, 4, 5)
+  "The perimeter of the pentagon is equal to " +
+    perimetrOfPentagon(1, 2, 3, 4, 5)
 );
 
 // 8. Напишите цикл, который выводит каждое третье число в промежутке от 0 до 33.
@@ -61,7 +62,7 @@ let factorial = 1;
 for (let i = 1; i < 9; i++) {
   factorial = factorial * i;
 }
-console.log("Факториал числа 8 равен " + factorial);
+console.log("The factorial of the number 8 is " + factorial);
 
 // 10. Напишите цикл, который выводит квадраты чисел от 1 до 10.
 for (let i = 1; i < 11; i++) {
@@ -73,7 +74,7 @@ let sum = 0;
 for (let i = 0; i < 26; i++) {
   sum = sum + i;
 }
-console.log("Сумма чисел от 1 до 25 равен " + sum);
+console.log("The sum of the numbers from 1 to 25 is equal to " + sum);
 
 // 12. Напишите цикл, который печатает четные числа от 0 до 20.
 for (let i = 0; i < 21; i += 2) {
