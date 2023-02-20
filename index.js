@@ -93,3 +93,12 @@ arrayOfStrings.push("Aika", "Akylai", "Aelina");
 console.log(arrayOfStrings);
 
 // 15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
+let arrayOfNumbers = [24, 5, 4, 9, 12, 4];
+
+let sumOfNumbers = 0;
+for (let i = 0; i < arrayOfNumbers.length; i++) {
+  if (arrayOfNumbers[i] % 2 === 0) {
+    sumOfNumbers = sumOfNumbers + arrayOfNumbers[i];
+  }
+}
+console.log(sumOfNumbers);
