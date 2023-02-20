@@ -86,8 +86,10 @@ for (let i = 1; i < 16; i += 2) {
 }
 
 // 14. Создайте массив из строк и добавьте в начало массива 2 новых элемента, а в конец 3.
-let array = ["Erjan", "Almaz agai", "Elaman agai"];
+let arrayOfStrings = ["Erjan", "Almaz agai", "Elaman agai"];
 
-array.unshift("Ajar", "Nestan");
-array.push("Aika", "Akylai", "Aelina");
-console.log(array);
+arrayOfStrings.unshift("Ajar", "Nestan");
+arrayOfStrings.push("Aika", "Akylai", "Aelina");
+console.log(arrayOfStrings);
+
+// 15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
